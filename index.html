@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Câlin — couches bébé douces, en coton bio et hypoallergénique, pour un confort jour et nuit. Livraison flexible, sans engagement.">
+  <title>Câlin — Couches douces pour bébé</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌙</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== QUIZ D'ACCUEIL ===== -->
+  <div class="quiz-overlay" id="quiz-overlay">
+    <div class="quiz-modal">
+      <button class="quiz-close" id="quiz-close" aria-label="Fermer">×</button>
+
+      <div class="quiz-progress"><div class="quiz-progress__bar" id="quiz-progress-bar"></div></div>
+
+      <div class="quiz-step" data-step="1">
+        <span class="quiz-emoji">👋</span>
+        <h2>Bienvenue chez Câlin !</h2>
+        <p class="quiz-intro">3 petites questions pour une expérience 100% adaptée à vous <span class="quiz-timer">(30 secondes chrono ⏱️)</span></p>
+        <div class="quiz-options" data-question="profil">
+          <button class="quiz-option" data-value="futur">🤰 Futur parent</button>
+          <button class="quiz-option" data-value="jeune">👶 Jeune parent</button>
+          <button class="quiz-option" data-value="experimente">🍼 Parent expérimenté</button>
+          <button class="quiz-option" data-value="proche">🔍 Je me renseigne pour un proche</button>
+        </div>
+      </div>
+
+      <div class="quiz-step" data-step="2" hidden>
+        <span class="quiz-emoji">👶</span>
+        <h2>Quel âge a (ou aura) bébé ?</h2>
+        <div class="quiz-options" data-question="age">
+          <button class="quiz-option" data-value="ne">🐣 Nouveau-né</button>
+          <button class="quiz-option" data-value="0-3">0 à 3 mois</button>
+          <button class="quiz-option" data-value="3-6">3 à 6 mois</button>
+          <button class="quiz-option" data-value="6-12">6 à 12 mois</button>
+          <button class="quiz-option" data-value="12+">Plus d'un an</button>
+        </div>
+      </div>
+
+      <div class="quiz-step" data-step="3" hidden>
+        <span class="quiz-emoji">💭</span>
+        <h2>Qu'est-ce qui compte le plus pour vous ?</h2>
+        <div class="quiz-options" data-question="priorite">
+          <button class="quiz-option" data-value="bio">🌿 Matières bio & naturelles</button>
+          <button class="quiz-option" data-value="prix">💰 Bon rapport qualité-prix</button>
+          <button class="quiz-option" data-value="eco">🌍 Impact environnemental</button>
+          <button class="quiz-option" data-value="nuit">🌙 Confort la nuit</button>
+        </div>
+      </div>
+
+      <div class="quiz-step" data-step="4" hidden>
+        <span class="quiz-emoji">🎁</span>
+        <h2>Recevez votre sélection personnalisée</h2>
+        <p class="quiz-intro">Et -10% sur votre première commande, cadeau de bienvenue.</p>
+        <form id="quiz-email-form" class="quiz-email-form">
+          <input type="email" id="quiz-email" placeholder="Votre email">
+          <button type="submit" class="btn btn--primary btn--full">Voir ma sélection</button>
+        </form>
+        <button class="quiz-skip" id="quiz-skip-email">Non merci, continuer sans</button>
+      </div>
+
+      <div class="quiz-step quiz-step--result" data-step="5" hidden>
+        <span class="quiz-emoji">✨</span>
+        <h2>Votre sélection est prête !</h2>
+        <p id="quiz-result-text"></p>
+        <button class="btn btn--primary" id="quiz-cta">Découvrir mes produits</button>
+      </div>
+
+      <button class="quiz-back" id="quiz-back" hidden>← Retour</button>
+    </div>
+  </div>
+
+  <button class="quiz-reopen" id="quiz-reopen" aria-label="Personnaliser mon expérience" hidden>🎁</button>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">Câlin <span>🌙</span></a>
+
+      <nav class="nav">
+        <a href="#produits">Produits</a>
+        <a href="#avantages">Pourquoi nous</a>
+        <a href="#avis">Avis</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="icon-btn" aria-label="Panier">🛍️ <span class="cart-count">0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <span class="badge">100% coton bio certifié</span>
+        <h1>Le confort tout doux, <br> jour et nuit.</h1>
+        <p>Des couches ultra-douces, hypoallergéniques et respectueuses de la peau de bébé — pensées avec amour, testées par les mamans.</p>
+        <div class="hero__cta">
+          <a href="#produits" class="btn btn--primary">Découvrir les couches</a>
+          <a href="#avantages" class="btn btn--ghost">En savoir plus</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="blob"></div>
+        <div class="hero__emoji">👶🏼</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AVANTAGES ===== -->
+  <section id="avantages" class="section avantages">
+    <div class="container">
+      <h2 class="section__title">Pourquoi choisir Câlin ?</h2>
+      <div class="grid grid--4">
+        <div class="card">
+          <div class="card__icon">🌿</div>
+          <h3>Coton bio</h3>
+          <p>Matières naturelles et hypoallergéniques, sans parfum ni substances irritantes.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">💧</div>
+          <h3>Absorption 12h</h3>
+          <p>Une protection longue durée pour des nuits sereines, sans fuite.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">🌎</div>
+          <h3>Éco-responsable</h3>
+          <p>Emballages recyclables et production à faible impact environnemental.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">💌</div>
+          <h3>Livraison douce</h3>
+          <p>Abonnement flexible livré directement chez vous, sans engagement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUITS ===== -->
+  <section id="produits" class="section produits">
+    <div class="container">
+      <h2 class="section__title">Nos couches</h2>
+      <p class="section__subtitle">Choisissez la taille adaptée à votre bébé</p>
+
+      <div class="grid grid--3">
+
+        <article class="product-card">
+          <div class="product-card__image product-card__image--peach">🐣</div>
+          <div class="product-card__body">
+            <span class="tag">Nouveau-né</span>
+            <h3>Taille 1 — 2 à 5 kg</h3>
+            <p class="price">14,90 €</p>
+            <button class="btn btn--primary btn--full">Ajouter au panier</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-card__image product-card__image--mint">🧸</div>
+          <div class="product-card__body">
+            <span class="tag">Best-seller</span>
+            <h3>Taille 2 — 4 à 8 kg</h3>
+            <p class="price">15,90 €</p>
+            <button class="btn btn--primary btn--full">Ajouter au panier</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-card__image product-card__image--lilac">🌸</div>
+          <div class="product-card__body">
+            <span class="tag">Populaire</span>
+            <h3>Taille 3 — 6 à 10 kg</h3>
+            <p class="price">16,90 €</p>
+            <button class="btn btn--primary btn--full">Ajouter au panier</button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AVIS ===== -->
+  <section id="avis" class="section avis">
+    <div class="container">
+      <h2 class="section__title">Ce que disent les parents</h2>
+      <div class="grid grid--3">
+        <blockquote class="testimonial">
+          <p>"Enfin des couches qui ne laissent aucune marque sur la peau de ma fille. On ne change plus !"</p>
+          <cite>— Léa, maman de Jade</cite>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"L'abonnement est génial, plus besoin d'y penser. Et la qualité est top."</p>
+          <cite>— Karim, papa de Sami</cite>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"Douces, absorbantes, et jolies en plus. Mon bébé dort enfin toute la nuit."</p>
+          <cite>— Inès, maman de Noah</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWSLETTER ===== -->
+  <section class="newsletter">
+    <div class="container newsletter__inner">
+      <h2>Rejoignez la famille Câlin</h2>
+      <p>Recevez -10% sur votre première commande et nos conseils bébé.</p>
+      <form class="newsletter__form" id="newsletter-form">
+        <input type="email" placeholder="Votre email" required>
+        <button type="submit" class="btn btn--dark">S'inscrire</button>
+      </form>
+      <p class="newsletter__msg" id="newsletter-msg"></p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="contact" class="footer">
+    <div class="container footer__inner">
+      <div>
+        <a href="#" class="logo logo--footer">Câlin 🌙</a>
+        <p>Le confort tout doux pour bébé, pensé avec amour.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <a href="#produits">Produits</a>
+        <a href="#avantages">Pourquoi nous</a>
+        <a href="#avis">Avis</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>contact@calin-bebe.fr</p>
+        <p>01 23 45 67 89</p>
+      </div>
+    </div>
+    <p class="footer__copy">© 2026 Câlin — Site d'exemple créé pour apprendre le développement web.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
