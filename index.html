@@ -6,6 +6,9 @@
   <meta name="description" content="Câlin — couches bébé douces, en coton bio et hypoallergénique, pour un confort jour et nuit. Livraison flexible, sans engagement.">
   <title>Câlin — Couches douces pour bébé</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌙</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -121,49 +124,92 @@
     </aside>
   </div>
 
+  <!-- ===== BANDEAU DÉFILANT ===== -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>🌿 COTON BIO CERTIFIÉ</span>
+      <span>·</span>
+      <span>🚚 LIVRAISON OFFERTE DÈS 40€</span>
+      <span>·</span>
+      <span>⭐ 4.9/5 SUR 2 340 AVIS</span>
+      <span>·</span>
+      <span>🔄 SATISFAIT OU REMBOURSÉ</span>
+      <span>·</span>
+      <span>💛 12 000+ FAMILLES CONQUISES</span>
+      <span>·</span>
+      <span>🌿 COTON BIO CERTIFIÉ</span>
+      <span>·</span>
+      <span>🚚 LIVRAISON OFFERTE DÈS 40€</span>
+      <span>·</span>
+      <span>⭐ 4.9/5 SUR 2 340 AVIS</span>
+      <span>·</span>
+      <span>🔄 SATISFAIT OU REMBOURSÉ</span>
+      <span>·</span>
+      <span>💛 12 000+ FAMILLES CONQUISES</span>
+      <span>·</span>
+    </div>
+  </div>
+
   <!-- ===== HERO ===== -->
   <section class="hero">
     <div class="container hero__inner">
       <div class="hero__text">
-        <span class="badge">100% coton bio certifié</span>
-        <h1>Le confort tout doux, <br> jour et nuit.</h1>
-        <p>Des couches ultra-douces, hypoallergéniques et respectueuses de la peau de bébé — pensées avec amour, testées par les mamans.</p>
+        <span class="badge badge--sticker">★★★★★ <span>4.9/5 — 2 340 parents conquis</span></span>
+        <h1>La couche que bébé <span class="highlight">oublie</span> qu'il porte.</h1>
+        <p>Coton bio, absorption 12h, zéro irritation. Conçue avec des parents, testée par de vrais bébés — les juges les plus difficiles à convaincre.</p>
         <div class="hero__cta">
-          <a href="#produits" class="btn btn--primary">Découvrir les couches</a>
-          <a href="#avantages" class="btn btn--ghost">En savoir plus</a>
+          <a href="#produits" class="btn btn--primary">Je découvre mes couches →</a>
+          <a href="#avis" class="btn btn--ghost">Voir les avis</a>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <strong>12 000+</strong>
+            <span>familles conquises</span>
+          </div>
+          <div class="hero__stat">
+            <strong>4.9/5</strong>
+            <span>note moyenne</span>
+          </div>
+          <div class="hero__stat">
+            <strong>0%</strong>
+            <span>substance irritante</span>
+          </div>
         </div>
       </div>
       <div class="hero__visual">
         <div class="blob"></div>
         <img class="hero__photo" src="https://images.pexels.com/photos/27788177/pexels-photo-27788177.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Bébé métisse souriant, portrait en gros plan" loading="lazy">
+        <div class="hero__floatcard">🌙 <div><strong>12h</strong><span>de nuits sereines</span></div></div>
       </div>
     </div>
+    <div class="wave-divider"><svg viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,40 C360,100 1080,0 1440,50 L1440,100 L0,100 Z"></path></svg></div>
   </section>
 
   <!-- ===== AVANTAGES ===== -->
   <section id="avantages" class="section avantages">
     <div class="container">
-      <h2 class="section__title">Pourquoi choisir Câlin ?</h2>
-      <div class="grid grid--4">
-        <div class="card">
+      <span class="eyebrow">La différence Câlin</span>
+      <h2 class="section__title">Pourquoi 12 000 parents ont changé de couches</h2>
+      <div class="grid grid--4 bento">
+        <div class="card card--peach">
           <div class="card__icon">🌿</div>
-          <h3>Coton bio</h3>
-          <p>Matières naturelles et hypoallergéniques, sans parfum ni substances irritantes.</p>
+          <h3>Douceur extrême</h3>
+          <p>Un coton bio si doux que bébé ne sent même pas qu'il porte une couche. Zéro parfum, zéro irritation.</p>
         </div>
-        <div class="card">
+        <div class="card card--dark">
           <div class="card__icon">💧</div>
-          <h3>Absorption 12h</h3>
-          <p>Une protection longue durée pour des nuits sereines, sans fuite.</p>
+          <h3>Nuits blindées</h3>
+          <p>12h d'absorption non-stop. Vous dormez. Bébé dort. Tout le monde gagne (enfin).</p>
         </div>
-        <div class="card">
+        <div class="card card--mint">
           <div class="card__icon">🌎</div>
-          <h3>Éco-responsable</h3>
-          <p>Emballages recyclables et production à faible impact environnemental.</p>
+          <h3>Bonne pour la planète</h3>
+          <p>Emballages recyclables, production éco-pensée. Un petit geste pour bébé, un grand pour demain.</p>
         </div>
-        <div class="card">
+        <div class="card card--lilac">
           <div class="card__icon">💌</div>
-          <h3>Livraison douce</h3>
-          <p>Abonnement flexible livré directement chez vous, sans engagement.</p>
+          <h3>Zéro prise de tête</h3>
+          <p>Abonnement flexible, livré chez vous. Modifiable ou annulable en 2 clics, promis.</p>
         </div>
       </div>
     </div>
@@ -172,37 +218,47 @@
   <!-- ===== PRODUITS ===== -->
   <section id="produits" class="section produits">
     <div class="container">
-      <h2 class="section__title">Nos couches</h2>
-      <p class="section__subtitle">Choisissez la taille adaptée à votre bébé</p>
+      <span class="eyebrow">Édition limitée · Stock frais</span>
+      <h2 class="section__title">Trouvez la taille de bébé</h2>
+      <p class="section__subtitle">Livraison offerte dès 40€ · Résiliable en 2 clics</p>
 
       <div class="grid grid--3">
 
         <article class="product-card">
+          <span class="ribbon ribbon--new">✨ Nouveau</span>
           <div class="product-card__image product-card__image--peach">🐣</div>
           <div class="product-card__body">
             <span class="tag">Nouveau-né</span>
             <h3>Taille 1 — 2 à 5 kg</h3>
+            <div class="rating">★★★★★ <span>(318)</span></div>
             <p class="price">14,90 €</p>
+            <p class="stock">🔥 Plus que 7 en stock</p>
             <button class="btn btn--primary btn--full" data-add-to-cart data-id="taille-1" data-name="Taille 1 — 2 à 5 kg" data-price="14.90" data-emoji="🐣">Ajouter au panier</button>
           </div>
         </article>
 
-        <article class="product-card">
+        <article class="product-card product-card--featured">
+          <span class="ribbon ribbon--best">🔥 Best-seller</span>
           <div class="product-card__image product-card__image--mint">🧸</div>
           <div class="product-card__body">
             <span class="tag">Best-seller</span>
             <h3>Taille 2 — 4 à 8 kg</h3>
-            <p class="price">15,90 €</p>
+            <div class="rating">★★★★★ <span>(482)</span></div>
+            <p class="price"><span class="price--old">19,90 €</span> 15,90 €</p>
+            <p class="stock stock--low">⚡ Plus que 3 en stock</p>
             <button class="btn btn--primary btn--full" data-add-to-cart data-id="taille-2" data-name="Taille 2 — 4 à 8 kg" data-price="15.90" data-emoji="🧸">Ajouter au panier</button>
           </div>
         </article>
 
         <article class="product-card">
+          <span class="ribbon ribbon--pop">💛 Populaire</span>
           <div class="product-card__image product-card__image--lilac">🌸</div>
           <div class="product-card__body">
             <span class="tag">Populaire</span>
             <h3>Taille 3 — 6 à 10 kg</h3>
+            <div class="rating">★★★★★ <span>(276)</span></div>
             <p class="price">16,90 €</p>
+            <p class="stock">✅ En stock</p>
             <button class="btn btn--primary btn--full" data-add-to-cart data-id="taille-3" data-name="Taille 3 — 6 à 10 kg" data-price="16.90" data-emoji="🌸">Ajouter au panier</button>
           </div>
         </article>
@@ -214,19 +270,32 @@
   <!-- ===== AVIS ===== -->
   <section id="avis" class="section avis">
     <div class="container">
-      <h2 class="section__title">Ce que disent les parents</h2>
-      <div class="grid grid--3">
+      <span class="eyebrow">2 340 avis vérifiés</span>
+      <h2 class="section__title">Ils ont dit adieu aux nuits blanches</h2>
+      <div class="testimonial-row">
         <blockquote class="testimonial">
-          <p>"Enfin des couches qui ne laissent aucune marque sur la peau de ma fille. On ne change plus !"</p>
-          <cite>— Léa, maman de Jade</cite>
+          <div class="testimonial__stars">★★★★★</div>
+          <p>"Enfin des couches qui ne laissent aucune marque sur la peau de ma fille. On ne change plus, jamais."</p>
+          <div class="testimonial__author">
+            <span class="avatar avatar--peach">L</span>
+            <cite>Léa — maman de Jade</cite>
+          </div>
         </blockquote>
         <blockquote class="testimonial">
-          <p>"L'abonnement est génial, plus besoin d'y penser. Et la qualité est top."</p>
-          <cite>— Karim, papa de Sami</cite>
+          <div class="testimonial__stars">★★★★★</div>
+          <p>"L'abonnement est génial, plus besoin d'y penser. La qualité est top et bébé n'a jamais eu la moindre rougeur."</p>
+          <div class="testimonial__author">
+            <span class="avatar avatar--mint">K</span>
+            <cite>Karim — papa de Sami</cite>
+          </div>
         </blockquote>
         <blockquote class="testimonial">
-          <p>"Douces, absorbantes, et jolies en plus. Mon bébé dort enfin toute la nuit."</p>
-          <cite>— Inès, maman de Noah</cite>
+          <div class="testimonial__stars">★★★★★</div>
+          <p>"Douces, absorbantes, et jolies en plus. Mon bébé dort enfin toute la nuit — moi aussi, du coup."</p>
+          <div class="testimonial__author">
+            <span class="avatar avatar--lilac">I</span>
+            <cite>Inès — maman de Noah</cite>
+          </div>
         </blockquote>
       </div>
     </div>
@@ -234,13 +303,16 @@
 
   <!-- ===== NEWSLETTER ===== -->
   <section class="newsletter">
+    <div class="newsletter__shape"></div>
     <div class="container newsletter__inner">
-      <h2>Rejoignez la famille Câlin</h2>
-      <p>Recevez -10% sur votre première commande et nos conseils bébé.</p>
+      <span class="badge badge--sticker badge--dark">🎁 Offre de bienvenue</span>
+      <h2>Ne ratez pas votre -10%</h2>
+      <p>Rejoignez 12 000 familles déjà conquises et recevez votre code, en exclusivité, dans les 2 minutes.</p>
       <form class="newsletter__form" id="newsletter-form">
         <input type="email" placeholder="Votre email" required>
-        <button type="submit" class="btn btn--dark">S'inscrire</button>
+        <button type="submit" class="btn btn--dark">Je récupère mon code →</button>
       </form>
+      <p class="newsletter__fine">Sans spam. Désinscription en un clic. Promis.</p>
       <p class="newsletter__msg" id="newsletter-msg"></p>
     </div>
   </section>
