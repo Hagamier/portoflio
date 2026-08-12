@@ -10,10 +10,10 @@ const cartFooterEl = document.getElementById('cart-footer');
 const cartSubtotalEl = document.getElementById('cart-subtotal');
 const cartCheckoutBtn = document.getElementById('cart-checkout');
 
-let cart = JSON.parse(localStorage.getItem('calinCart') || '[]');
+let cart = JSON.parse(localStorage.getItem('sofiaCart') || '[]');
 
 function cartSave() {
-  localStorage.setItem('calinCart', JSON.stringify(cart));
+  localStorage.setItem('sofiaCart', JSON.stringify(cart));
 }
 
 function cartRender() {
@@ -203,7 +203,7 @@ function quizOpen() {
 function quizClose(remember = true) {
   quizOverlay.classList.remove('active');
   if (remember) {
-    localStorage.setItem('calinQuizDone', '1');
+    localStorage.setItem('sofiaQuizDone', '1');
     quizReopenBtn.hidden = false;
   }
 }
@@ -271,7 +271,7 @@ quizReopenBtn.addEventListener('click', () => {
 });
 
 // Ouverture automatique à l'arrivée sur le site (une seule fois)
-if (!localStorage.getItem('calinQuizDone')) {
+if (!localStorage.getItem('sofiaQuizDone')) {
   setTimeout(quizOpen, 600);
 } else {
   quizReopenBtn.hidden = false;
