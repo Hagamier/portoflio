@@ -89,10 +89,37 @@
       </nav>
 
       <div class="header__actions">
-        <button class="icon-btn" aria-label="Panier">🛍️ <span class="cart-count">0</span></button>
+        <button class="icon-btn" id="cart-open" aria-label="Ouvrir le panier">🛍️ <span class="cart-count">0</span></button>
       </div>
     </div>
   </header>
+
+  <!-- ===== PANIER ===== -->
+  <div class="cart-overlay" id="cart-overlay">
+    <aside class="cart-drawer">
+      <div class="cart-drawer__header">
+        <h2>Votre panier</h2>
+        <button class="quiz-close" id="cart-close" aria-label="Fermer le panier">×</button>
+      </div>
+
+      <div class="cart-empty" id="cart-empty">
+        <span class="cart-empty__emoji">🛍️</span>
+        <p>Votre panier est vide.</p>
+        <a href="#produits" class="btn btn--primary" id="cart-empty-cta">Découvrir les couches</a>
+      </div>
+
+      <ul class="cart-items" id="cart-items"></ul>
+
+      <div class="cart-drawer__footer" id="cart-footer" hidden>
+        <div class="cart-subtotal">
+          <span>Sous-total</span>
+          <strong id="cart-subtotal">0,00 €</strong>
+        </div>
+        <button class="btn btn--primary btn--full" id="cart-checkout">Passer la commande</button>
+        <button class="quiz-skip" id="cart-continue">Continuer mes achats</button>
+      </div>
+    </aside>
+  </div>
 
   <!-- ===== HERO ===== -->
   <section class="hero">
@@ -108,7 +135,7 @@
       </div>
       <div class="hero__visual">
         <div class="blob"></div>
-        <div class="hero__emoji">👶🏼</div>
+        <img class="hero__photo" src="https://images.pexels.com/photos/27788177/pexels-photo-27788177.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Bébé métisse souriant, portrait en gros plan" loading="lazy">
       </div>
     </div>
   </section>
@@ -156,7 +183,7 @@
             <span class="tag">Nouveau-né</span>
             <h3>Taille 1 — 2 à 5 kg</h3>
             <p class="price">14,90 €</p>
-            <button class="btn btn--primary btn--full">Ajouter au panier</button>
+            <button class="btn btn--primary btn--full" data-add-to-cart data-id="taille-1" data-name="Taille 1 — 2 à 5 kg" data-price="14.90" data-emoji="🐣">Ajouter au panier</button>
           </div>
         </article>
 
@@ -166,7 +193,7 @@
             <span class="tag">Best-seller</span>
             <h3>Taille 2 — 4 à 8 kg</h3>
             <p class="price">15,90 €</p>
-            <button class="btn btn--primary btn--full">Ajouter au panier</button>
+            <button class="btn btn--primary btn--full" data-add-to-cart data-id="taille-2" data-name="Taille 2 — 4 à 8 kg" data-price="15.90" data-emoji="🧸">Ajouter au panier</button>
           </div>
         </article>
 
@@ -176,7 +203,7 @@
             <span class="tag">Populaire</span>
             <h3>Taille 3 — 6 à 10 kg</h3>
             <p class="price">16,90 €</p>
-            <button class="btn btn--primary btn--full">Ajouter au panier</button>
+            <button class="btn btn--primary btn--full" data-add-to-cart data-id="taille-3" data-name="Taille 3 — 6 à 10 kg" data-price="16.90" data-emoji="🌸">Ajouter au panier</button>
           </div>
         </article>
 

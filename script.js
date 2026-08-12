@@ -1,17 +1,122 @@
-// ===== Panier (compteur simple, sans stockage réel) =====
-let cartCount = 0;
+// ===== Panier =====
 const cartCountEl = document.querySelector('.cart-count');
+const cartOverlay = document.getElementById('cart-overlay');
+const cartOpenBtn = document.getElementById('cart-open');
+const cartCloseBtn = document.getElementById('cart-close');
+const cartContinueBtn = document.getElementById('cart-continue');
+const cartItemsEl = document.getElementById('cart-items');
+const cartEmptyEl = document.getElementById('cart-empty');
+const cartFooterEl = document.getElementById('cart-footer');
+const cartSubtotalEl = document.getElementById('cart-subtotal');
+const cartCheckoutBtn = document.getElementById('cart-checkout');
 
-document.querySelectorAll('.product-card .btn--primary').forEach((btn) => {
+let cart = JSON.parse(localStorage.getItem('calinCart') || '[]');
+
+function cartSave() {
+  localStorage.setItem('calinCart', JSON.stringify(cart));
+}
+
+function cartRender() {
+  const totalQty = cart.reduce((sum, item) => sum + item.qty, 0);
+  cartCountEl.textContent = totalQty;
+
+  cartEmptyEl.hidden = cart.length > 0;
+  cartFooterEl.hidden = cart.length === 0;
+
+  cartItemsEl.innerHTML = cart.map((item) => `
+    <li class="cart-item" data-id="${item.id}">
+      <div class="cart-item__image">${item.emoji}</div>
+      <div class="cart-item__info">
+        <div class="cart-item__name">${item.name}</div>
+        <div class="cart-item__price">${item.price.toFixed(2).replace('.', ',')} €</div>
+        <div class="cart-item__qty">
+          <button data-action="decrease" aria-label="Diminuer la quantité">−</button>
+          <span>${item.qty}</span>
+          <button data-action="increase" aria-label="Augmenter la quantité">+</button>
+        </div>
+      </div>
+      <button class="cart-item__remove" data-action="remove" aria-label="Retirer l'article">×</button>
+    </li>
+  `).join('');
+
+  const subtotal = cart.reduce((sum, item) => sum + item.price * item.qty, 0);
+  cartSubtotalEl.textContent = `${subtotal.toFixed(2).replace('.', ',')} €`;
+
+  cartSave();
+}
+
+function cartAdd({ id, name, price, emoji }) {
+  const existing = cart.find((item) => item.id === id);
+  if (existing) {
+    existing.qty++;
+  } else {
+    cart.push({ id, name, price: Number(price), emoji, qty: 1 });
+  }
+  cartRender();
+}
+
+function cartOpen() {
+  cartOverlay.classList.add('active');
+}
+
+function cartClose() {
+  cartOverlay.classList.remove('active');
+}
+
+document.querySelectorAll('[data-add-to-cart]').forEach((btn) => {
   btn.addEventListener('click', () => {
-    cartCount++;
-    cartCountEl.textContent = cartCount;
+    cartAdd({
+      id: btn.dataset.id,
+      name: btn.dataset.name,
+      price: btn.dataset.price,
+      emoji: btn.dataset.emoji,
+    });
+
+    const originalText = btn.textContent;
     btn.textContent = 'Ajouté ✓';
     setTimeout(() => {
-      btn.textContent = 'Ajouter au panier';
+      btn.textContent = originalText;
     }, 1200);
   });
 });
+
+cartItemsEl.addEventListener('click', (e) => {
+  const btn = e.target.closest('button[data-action]');
+  if (!btn) return;
+  const id = btn.closest('.cart-item').dataset.id;
+  const item = cart.find((i) => i.id === id);
+  if (!item) return;
+
+  if (btn.dataset.action === 'increase') item.qty++;
+  if (btn.dataset.action === 'decrease') item.qty--;
+  if (btn.dataset.action === 'remove') item.qty = 0;
+
+  if (item.qty <= 0) {
+    cart = cart.filter((i) => i.id !== id);
+  }
+  cartRender();
+});
+
+cartOpenBtn.addEventListener('click', cartOpen);
+cartCloseBtn.addEventListener('click', cartClose);
+cartContinueBtn.addEventListener('click', cartClose);
+document.getElementById('cart-empty-cta').addEventListener('click', cartClose);
+
+cartOverlay.addEventListener('click', (e) => {
+  if (e.target === cartOverlay) cartClose();
+});
+
+cartCheckoutBtn.addEventListener('click', () => {
+  cartCheckoutBtn.textContent = 'Commande envoyée ✓ (démo)';
+  setTimeout(() => {
+    cart = [];
+    cartRender();
+    cartClose();
+    cartCheckoutBtn.textContent = 'Passer la commande';
+  }, 1500);
+});
+
+cartRender();
 
 // ===== Newsletter (simulation d'inscription) =====
 const form = document.getElementById('newsletter-form');
