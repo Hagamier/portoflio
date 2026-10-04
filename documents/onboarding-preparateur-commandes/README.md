@@ -4,13 +4,13 @@
 
 ## Synthèse et enjeux
 
-Ce programme rend un préparateur de commandes et de mise en rayon autonome, sûr et productif en 30 jours. Il fixe pour chaque semaine un objectif, un contenu, un responsable et un critère de validation.
+Ce programme rend un préparateur de commandes et de mise en rayon autonome, sûr et productif en 30 jours. Il fixe pour chaque semaine un objectif, un contenu, un responsable et un critère de validation. Il s'appuie sur le droit belge : la loi du 4 août 1996 relative au bien-être des travailleurs et le Code du bien-être au travail.
 
 Les premières semaines décident de la suite. En entrepôt comme en magasin, les départs précoces et les accidents se concentrent sur les nouveaux arrivants. Un accueil structuré réduit ces deux risques et accélère l'atteinte des cadences.
 
 **Ce que le programme garantit :**
 
-- **Sécurité d'abord.** Aucune tâche à risque n'est confiée avant la formation sécurité, conformément au Code du travail.
+- **Sécurité d'abord.** Aucune tâche à risque n'est confiée avant la formation sécurité, conformément au Code du bien-être au travail.
 - **Une montée en charge progressive.** La cadence attendue passe par paliers de 30 % à 90 % du standard, sans pression prématurée.
 - **Un tuteur nommé.** Chaque nouvel arrivant a un référent terrain du premier au dernier jour.
 - **Des points de contrôle formels.** Trois entretiens à J5, J15 et J30 mesurent la progression et l'intégration.
@@ -21,7 +21,7 @@ Les premières semaines décident de la suite. En entrepôt comme en magasin, le
 - Selon Gallup, seuls 12 % des salariés estiment que leur organisation fait un excellent travail d'intégration.
 - Selon Gallup, quand le manager s'implique activement, le nouveau salarié a 3,4 fois plus de chances de juger son intégration exceptionnelle.
 - Selon Brandon Hall Group, une intégration solide améliore la rétention des nouveaux salariés de 82 % et leur productivité de plus de 70 %.
-- Selon l'INRS, la manutention manuelle et le port de charges sont les premières causes d'accidents du travail sur les plateformes logistiques.
+- En Belgique, l'employeur doit organiser l'accueil de chaque nouveau travailleur et lui désigner un travailleur expérimenté pour l'accompagner, selon le Code du bien-être au travail.
 
 ## Fondements : ce que dit la littérature
 
@@ -31,12 +31,12 @@ Le programme combine six cadres reconnus. Chacun répond à une question précis
 | --- | --- | --- | --- |
 | Les 4 C de l'intégration | Talya Bauer, SHRM Foundation | Une intégration réussie couvre Conformité, Clarification, Culture et Connexion. | Chaque semaine traite les 4 C. La Connexion repose sur le tuteur et les pauses partagées. |
 | Modèle 70-20-10 | Lombardo et Eichinger, Center for Creative Leadership | On apprend à 70 % en faisant, 20 % avec les autres, 10 % en formation formelle. | Peu de salle, beaucoup de terrain en binôme, des débriefs courts et fréquents. |
-| Formation à la sécurité | Code du travail, art. L4141-2 et R4141-1 et suivants | L'employeur forme chaque nouvel embauché à la sécurité dès son arrivée. Les intérimaires et CDD sur postes à risque reçoivent une formation renforcée (art. L4154-2). | Le jour 1 est consacré à la sécurité. Aucune tâche à risque avant sa validation. |
-| Prévention des risques liés à l'activité physique (PRAP) | INRS | Le salarié apprend à analyser sa situation de travail, pas seulement « les bons gestes ». | Atelier manutention en semaine 1, observation du poste en semaine 3. |
+| Accueil et accompagnement obligatoires | Loi du 4 août 1996 et Code du bien-être au travail, livre Ier, titre 2 | L'employeur organise l'accueil de chaque nouveau travailleur et désigne un travailleur expérimenté pour l'accompagner. Pour un intérimaire, l'entreprise utilisatrice établit une fiche de poste de travail (livre X, titre 2). | Le jour 1 est consacré à la sécurité. Aucune tâche à risque avant sa validation. |
+| Manutention manuelle et ergonomie | Code du bien-être au travail, livre VIII, titre 3 ; Prevent et BeSWIC | L'employeur évalue les risques, notamment dorsolombaires, puis informe et forme. Le salarié apprend à analyser sa situation de travail, pas seulement « les bons gestes ». | Atelier manutention en semaine 1, observation du poste en semaine 3. |
 | Travail standardisé et 5S | Lean management, Toyota Production System | Une méthode unique, visuelle et documentée réduit les erreurs et accélère l'apprentissage. | Modes opératoires affichés, une seule façon de prélever, ranger et contrôler. |
 | Évaluation en 4 niveaux | Donald Kirkpatrick | On mesure la réaction, l'apprentissage, le comportement au poste et le résultat. | Questionnaire à chaud, quiz sécurité, grille d'observation, indicateurs de productivité et de qualité. |
 
-Deux apports complètent ce socle. Michael Watkins (*The First 90 Days*) insiste sur les « victoires rapides » qui donnent confiance : le nouvel arrivant réalise une vraie commande dès le jour 2. Les travaux sur le tutorat montrent qu'un référent identifié réduit l'isolement et les départs pendant la période d'essai.
+Deux apports complètent ce socle. Michael Watkins (*The First 90 Days*) insiste sur les « victoires rapides » qui donnent confiance : le nouvel arrivant réalise une vraie commande dès le jour 2. Les travaux sur le tutorat montrent qu'un référent identifié réduit l'isolement et les départs pendant les premières semaines. En Belgique, cet accompagnement par un travailleur expérimenté est d'ailleurs obligatoire.
 
 ## Le poste en bref
 
@@ -56,7 +56,7 @@ Le préparateur de commandes et de mise en rayon prélève les bons produits, da
 | Domaine | Savoir-faire | Savoir-être |
 | --- | --- | --- |
 | Sécurité | Port des équipements de protection, gestes et postures, circulation piéton et engins | Vigilance, respect strict des consignes |
-| Outils | Terminal de scan, logiciel de gestion d'entrepôt (WMS), transpalette manuel, transpalette électrique après autorisation de conduite | Curiosité, signalement des bugs |
+| Outils | Terminal de scan, logiciel de gestion d'entrepôt (WMS), transpalette manuel, transpalette électrique après formation adéquate | Curiosité, signalement des bugs |
 | Qualité | Contrôle référence et quantité, colisage, rotation des dates | Rigueur, souci du client final |
 | Productivité | Maîtrise des circuits de prélèvement, organisation de la palette | Endurance, régularité |
 | Équipe | Passation entre équipes, remontée d'information | Entraide, ponctualité |
@@ -81,8 +81,8 @@ Quatre acteurs portent l'intégration. Le manager en est responsable de bout en 
 | --- | --- | --- |
 | Manager de proximité | Prépare l'arrivée, accueille le jour 1, fixe les objectifs, mène les entretiens J5, J15 et J30, décide de la validation | Environ 1 h le jour 1, puis 15 min par jour en semaine 1 et 30 min par entretien |
 | Tuteur terrain | Montre, fait faire, corrige, rassure. Remplit la grille d'observation chaque fin de semaine | Binôme complet en semaine 1, dégressif ensuite |
-| Ressources humaines | Contrat, visite d'information et de prévention, livret d'accueil, badge, paie, mutuelle | Avant l'arrivée et le jour 1 |
-| Référent sécurité ou QHSE | Accueil sécurité, remise des équipements, autorisations de conduite, quiz sécurité | Une demi-journée le jour 1, puis un contrôle en semaine 3 |
+| Ressources humaines | Contrat, déclaration Dimona, évaluation de santé si le poste l'exige, livret d'accueil, badge, paie | Avant l'arrivée et le jour 1 |
+| Conseiller en prévention ou QHSE | Accueil sécurité, remise des équipements, formations à la conduite des engins, quiz sécurité | Une demi-journée le jour 1, puis un contrôle en semaine 3 |
 
 **Choisir le bon tuteur :**
 
@@ -97,11 +97,12 @@ L'intégration commence avant le premier jour. Un nouvel arrivant attendu, équi
 
 **J-15 à J-8 : administratif et logistique**
 
-- [ ] Contrat signé et déclaration préalable à l'embauche effectuée.
-- [ ] Visite d'information et de prévention programmée auprès du service de santé au travail, dans les 3 mois suivant l'embauche.
+- [ ] Contrat signé et déclaration Dimona effectuée avant le premier jour de travail.
+- [ ] Pour un intérimaire : fiche de poste de travail établie avec l'agence. Elle décrit les risques du poste, les équipements de protection et la surveillance de santé requise.
+- [ ] Évaluation de santé préalable programmée auprès du service externe de prévention et de protection au travail si le poste l'exige, par exemple un poste de sécurité ou une manutention à risque. Elle a lieu avant l'affectation au poste.
 - [ ] Tailles relevées et équipements commandés : chaussures de sécurité, gants anti-coupure, gilet haute visibilité, vêtement grand froid si zone froide.
 - [ ] Badge d'accès, casier et identifiants informatiques (WMS, terminal) demandés.
-- [ ] Tuteur désigné, informé et planning de binôme calé sur 4 semaines.
+- [ ] Tuteur désigné, informé et planning de binôme calé sur 4 semaines. C'est le travailleur expérimenté que le Code du bien-être au travail impose de désigner.
 - [ ] Standards du site renseignés : cadence cible, taux d'erreur toléré, horaires et rotations d'équipe.
 
 **J-7 à J-3 : premier contact**
@@ -123,15 +124,15 @@ Objectif de la semaine : travailler en sécurité, connaître le site et réalis
 
 | Jour | Matin | Après-midi | Validation du jour |
 | --- | --- | --- | --- |
-| J1 – Bienvenue et sécurité | Accueil par le manager, présentation de l'entreprise, de ses clients et de ses valeurs. Formalités RH, badge, casier. Accueil sécurité : plan de circulation, zones interdites, issues de secours, consignes incendie, premiers secours, droit d'alerte et de retrait. | Remise et réglage des équipements de protection. Visite complète du site avec le tuteur : réception, stockage, préparation, expédition, rayons. Présentation à l'équipe et pause partagée. | Quiz sécurité réussi. Attestation de formation sécurité signée. |
-| J2 – Gestes et outils | Atelier manutention inspiré de la PRAP : échauffement, prise de charge, travail jambes fléchies, rotation du corps sans torsion du dos, aides à la manutention. | Prise en main du terminal de scan et des écrans du WMS. Première commande simple réalisée avec le tuteur, du prélèvement au dépôt. | Première commande complète sans erreur, en binôme. |
+| J1 – Bienvenue et sécurité | Accueil par le manager, présentation de l'entreprise, de ses clients et de ses valeurs. Formalités RH, badge, casier. Accueil sécurité : plan de circulation, zones interdites, issues de secours, consignes incendie, premiers secours, droit de s'écarter d'un danger grave et immédiat. | Remise et réglage des équipements de protection. Visite complète du site avec le tuteur : réception, stockage, préparation, expédition, rayons. Présentation à l'équipe et pause partagée. | Quiz sécurité réussi. Attestation de formation sécurité signée. |
+| J2 – Gestes et outils | Atelier manutention et ergonomie : échauffement, prise de charge, travail jambes fléchies, rotation du corps sans torsion du dos, aides à la manutention. | Prise en main du terminal de scan et des écrans du WMS. Première commande simple réalisée avec le tuteur, du prélèvement au dépôt. | Première commande complète sans erreur, en binôme. |
 | J3 – La préparation | Le tuteur fait, le nouveau observe et commente. Logique d'adressage, ordre de prélèvement, construction d'une palette stable : lourd en bas, fragile en haut. | Le nouveau fait, le tuteur observe et corrige. Contrôle référence et quantité à chaque ligne. | Palette montée, filmée et étiquetée correctement. |
 | J4 – La mise en rayon | Lecture d'un planogramme, rotation FIFO et FEFO, facing, contrôle des dates et des étiquettes prix. | Mise en rayon d'un linéaire complet en binôme. Gestion des cartons et déchets, tri. | Rayon conforme au planogramme, aucune date dépassée. |
 | J5 – Consolidation | Préparation en binôme, le tuteur intervient le moins possible. | Entretien J5 avec le manager. Questionnaire à chaud sur la semaine. | Entretien J5 réalisé, points de vigilance notés. |
 
 **Règles de la semaine 1 :**
 
-- Pas de conduite d'engin motorisé sans autorisation de conduite délivrée par l'employeur. Les chariots élévateurs exigent en plus une formation de type CACES R489, les gerbeurs à conducteur accompagnant une formation de type CACES R485.
+- Pas de conduite d'engin motorisé sans formation adéquate. La Belgique n'impose pas de permis légal, mais la conduite d'un chariot élévateur est réservée aux travailleurs formés. C'est aussi un poste de sécurité, soumis à l'évaluation de santé par le conseiller en prévention-médecin du travail.
 - Pas de travail seul, pas de travail en hauteur.
 - Pauses respectées et hydratation encouragée : le corps n'est pas encore habitué à l'effort.
 - Le manager passe voir le nouveau au moins deux fois par jour.
@@ -146,7 +147,7 @@ Objectif : maîtriser les préparations courantes et la mise en rayon standard, 
 
 - **Préparation.** Commandes multi-références, gestion des emplacements vides et des manquants, procédure d'anomalie.
 - **Mise en rayon.** Réassort d'un rayon seul, contrôlé en fin de poste par le tuteur.
-- **Outils.** Formation et autorisation de conduite du transpalette électrique si le poste l'exige.
+- **Outils.** Formation adéquate à la conduite du transpalette électrique si le poste l'exige, avec évaluation de santé préalable s'il s'agit d'un poste de sécurité.
 - **Qualité.** Première lecture de ses propres erreurs avec le tuteur, sans jugement : comprendre la cause, pas chercher un coupable.
 - **Culture.** Participation au brief d'équipe et au point sécurité du jour.
 - **Rituel.** Débrief de 10 minutes avec le tuteur chaque fin de journée : une réussite, une difficulté, un objectif pour demain.
@@ -158,7 +159,7 @@ Objectif : travailler seul sur les tâches courantes, le tuteur intervenant à l
 - **Autonomie.** Le nouveau gère seul une tournée de préparation ou un rayon complet, de bout en bout.
 - **Cas particuliers.** Produits fragiles, lourds, dangereux ou sous température dirigée. Retours clients et casse.
 - **Inventaire.** Participation à un inventaire tournant.
-- **Sécurité.** Observation du poste par le référent sécurité : postures, port des équipements, circulation. Le nouveau propose une amélioration de son poste, dans l'esprit de la PRAP.
+- **Sécurité.** Observation du poste par le conseiller en prévention : postures, port des équipements, circulation. Le nouveau propose une amélioration de son poste, à partir de l'analyse ergonomique de sa situation de travail.
 - **Rapport d'étonnement.** Le nouveau note ce qui l'a surpris, ce qui fonctionne et ce qui pourrait être amélioré. Son regard neuf est une ressource pour l'équipe.
 - **Rituel.** Entretien J15 avec le manager en début de semaine.
 
@@ -206,7 +207,7 @@ Le tuteur remplit la grille en fin de semaines 1, 2 et 4, sur observation au pos
 
 - **Validé.** Toutes les compétences sécurité au niveau 4 et toutes les autres au moins au niveau 3.
 - **Prolongé.** Une ou deux compétences non sécurité au niveau 2 : plan d'accompagnement ciblé de 2 à 4 semaines.
-- **Alerte.** Une compétence sécurité sous le niveau 4, ou trois compétences ou plus au niveau 2 : point avec les RH avant la fin de la période d'essai.
+- **Alerte.** Une compétence sécurité sous le niveau 4, ou trois compétences ou plus au niveau 2 : point immédiat avec les RH, ou avec l'agence pour un intérimaire.
 
 ## Entretiens de suivi : J5, J15, J30
 
@@ -228,7 +229,7 @@ But : mesurer la progression et ajuster l'accompagnement.
 
 - Quelles tâches maîtrisez-vous maintenant ? Lesquelles restent difficiles ?
 - Comment se passe le travail avec votre tuteur ?
-- Ressentez-vous des douleurs ou une fatigue inhabituelle ? Le cas échéant, orientation vers le service de santé au travail.
+- Ressentez-vous des douleurs ou une fatigue inhabituelle ? Le cas échéant, orientation vers le conseiller en prévention-médecin du travail.
 - Partage de la grille de la semaine 2 et des premiers indicateurs.
 - Premiers éléments du rapport d'étonnement.
 
@@ -259,7 +260,7 @@ Le programme se mesure lui-même. Ses résultats sont revus chaque trimestre pou
 
 - Livret d'accueil : histoire de l'entreprise, organigramme, contacts utiles, horaires, règlement intérieur.
 - Plan du site avec circulation piétons et engins.
-- Fiche réflexe sécurité au format poche : numéros d'urgence, sauveteurs secouristes du travail, conduite à tenir.
+- Fiche réflexe sécurité au format poche : numéros d'urgence, secouristes du site, conduite à tenir.
 - Modes opératoires illustrés : prélèvement, palettisation, mise en rayon, rotation des dates.
 - Lexique du métier : WMS, picking, FIFO, FEFO, facing, planogramme, colisage, linéaire.
 - Planning des 4 semaines avec le nom du tuteur.
@@ -287,10 +288,12 @@ Le programme se mesure lui-même. Ses résultats sont revus chaque trimestre pou
 - Gallup, [Creating an Exceptional Onboarding Journey for Your New Employees](https://www.gallup.com/file/workplace/247076/Gallup_Perspective_on_Creating_an_Exceptional_Onboarding_Journey_for_Your_New_Employees.pdf).
 - Brandon Hall Group pour Glassdoor, étude reprise par [StrongDM, Employee Onboarding Statistics](https://www.strongdm.com/blog/employee-onboarding-statistics) : rétention + 82 %, productivité + 70 %.
 - Talya Bauer, *Onboarding New Employees: Maximizing Success*, SHRM Foundation, présenté par [Cisive, The 4 C's of Onboarding](https://www.cisive.com/blog/4-cs-of-onboarding).
-- INRS, [Logistique : risques du métier](https://www.inrs.fr/metiers/logistique.html).
-- INRS, [Se former aux risques liés à l'activité physique (PRAP et TMS)](https://www.inrs.fr/formation/themes/risques/activite-physique-prap-tms.html).
-- Code du travail, articles L4141-2, R4141-1 et suivants (formation à la sécurité), L4154-2 (formation renforcée des CDD et intérimaires), R4323-55 et R4323-56 (autorisation de conduite), R4541-9 (port de charges), R4624-10 (visite d'information et de prévention), sur [Légifrance](https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072050/).
+- SPF Emploi, Travail et Concertation sociale, [Code du bien-être au travail](https://emploi.belgique.be/fr/themes/bien-etre-au-travail/principes-generaux/code-du-bien-etre-au-travail) : livre Ier, titre 2 (accueil et accompagnement des nouveaux travailleurs), article I.2-26 (droit de s'écarter d'un danger grave et immédiat), livre IV (équipements de travail mobiles), livre VIII, titre 3 (manutention manuelle de charges), livre X, titre 2 (travail intérimaire).
+- SPF Emploi, [L'accueil et l'accompagnement des nouveaux travailleurs](https://emploi.belgique.be/fr/actualites/laccueil-et-laccompagnement-des-nouveaux-travailleurs).
+- SPF Emploi, [Permis de conduire pour chariot de manutention automoteur](https://emploi.belgique.be/fr/themes/bien-etre-au-travail/equipements-de-travail/equipements-de-travail-mobiles/permis-de).
+- SPF Emploi, [Manutention manuelle de charges](https://emploi.belgique.be/fr/themes/bien-etre-au-travail/ergonomie-au-travail-et-prevention-des-tms/manutention-manuelle-de).
+- SPF Emploi, [Travail intérimaire](https://emploi.belgique.be/fr/themes/bien-etre-au-travail/organisation-de-travail-et-categories-specifiques-du-travailleurs-4), et le site fichepostedetravail.be de Prévention et Intérim.
+- Loi du 4 août 1996 relative au bien-être des travailleurs lors de l'exécution de leur travail.
 - Michael Watkins, *The First 90 Days*, Harvard Business Review Press.
 - Donald et James Kirkpatrick, *Evaluating Training Programs: The Four Levels*, Berrett-Koehler.
 - Michael Lombardo et Robert Eichinger, *The Career Architect Development Planner*, modèle 70-20-10.
-- Recommandations CNAM R489 (chariots élévateurs) et R485 (gerbeurs à conducteur accompagnant).

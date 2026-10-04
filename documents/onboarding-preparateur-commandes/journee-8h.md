@@ -4,7 +4,7 @@
 
 ## Synthèse
 
-En une journée de 8 heures de travail, ce parcours rend un nouveau préparateur capable de travailler en sécurité et de réaliser seul des préparations et des mises en rayon simples. Il ne vise pas l'autonomie complète : c'est l'objectif du [programme sur 30 jours](README.md).
+En une journée de 8 heures de travail, ce parcours rend un nouveau préparateur capable de travailler en sécurité et de réaliser seul des préparations et des mises en rayon simples. Il ne vise pas l'autonomie complète : c'est l'objectif du [programme sur 30 jours](README.md). Il respecte le droit belge du bien-être au travail.
 
 **Quand l'utiliser :**
 
@@ -44,15 +44,15 @@ Une journée de 8 heures ne laisse aucune place à l'improvisation. Tout ce qui 
 
 **J-3 : administratif et matériel**
 
-- [ ] Contrat ou contrat de mission signé, déclaration préalable à l'embauche faite.
-- [ ] Pour un intérimaire, poste à risque vérifié avec l'agence : si oui, la formation renforcée à la sécurité est obligatoire.
+- [ ] Contrat de travail ou contrat de travail intérimaire signé, déclaration Dimona faite avant le premier jour.
+- [ ] Pour un intérimaire, fiche de poste de travail établie avec l'agence : risques du poste, équipements de protection et surveillance de santé requise. Si le poste exige une évaluation de santé préalable, elle a lieu avant la journée.
 - [ ] Tailles relevées, équipements de protection prêts : chaussures de sécurité, gants anti-coupure, gilet haute visibilité, vêtement grand froid si zone froide.
 - [ ] Badge, casier et identifiants du terminal de scan créés.
 
 **J-2 : organisation**
 
-- [ ] Tuteur désigné et libéré de son objectif de productivité pour la journée.
-- [ ] Référent sécurité disponible de 7 h 45 à 8 h 45.
+- [ ] Tuteur désigné et libéré de son objectif de productivité pour la journée. C'est le travailleur expérimenté que le Code du bien-être au travail impose de désigner.
+- [ ] Conseiller en prévention, ou son relais sur le site, disponible de 7 h 45 à 8 h 45.
 - [ ] Zone de préparation simple choisie pour la pratique : produits légers, références peu nombreuses.
 - [ ] Rayon d'entraînement choisi pour la mise en rayon de l'après-midi.
 - [ ] Quiz sécurité, attestation de formation et grille de fin de journée imprimés.
@@ -77,9 +77,9 @@ La matinée installe la sécurité et les gestes. L'après-midi est consacré à
 | Horaire | Bloc | Contenu | Responsable | Validation |
 | --- | --- | --- | --- | --- |
 | 7 h 30 – 7 h 45 | Accueil | Bienvenue, café, badge et casier. Présentation du tuteur. Annonce des objectifs de la journée et de l'heure du bilan. | Manager | Le nouveau connaît son tuteur et le programme. |
-| 7 h 45 – 8 h 45 | Accueil sécurité | Plan de circulation piétons et engins, zones interdites, issues de secours, consignes incendie, sauveteurs secouristes du travail, droit d'alerte et de retrait. Remise et réglage des équipements de protection. | Référent sécurité | Quiz sécurité réussi, attestation signée. |
+| 7 h 45 – 8 h 45 | Accueil sécurité | Plan de circulation piétons et engins, zones interdites, issues de secours, consignes incendie, secouristes du site, droit de s'écarter d'un danger grave et immédiat. Remise et réglage des équipements de protection. | Conseiller en prévention | Quiz sécurité réussi, attestation signée. |
 | 8 h 45 – 9 h 30 | Visite du site | Parcours réception, stockage, préparation, expédition et rayons. Présentation à l'équipe. Explication du rôle du poste dans la chaîne, jusqu'au client final. | Tuteur | Le nouveau situe chaque zone sur le plan. |
-| 9 h 30 – 10 h 15 | Gestes et postures | Atelier inspiré de la PRAP : échauffement, prise de charge près du corps, jambes fléchies, pas de torsion du dos, usage du transpalette manuel et des aides à la manutention. | Tuteur ou référent sécurité | Démonstration correcte sur trois charges différentes. |
+| 9 h 30 – 10 h 15 | Gestes et postures | Atelier manutention et ergonomie : échauffement, prise de charge près du corps, jambes fléchies, pas de torsion du dos, usage du transpalette manuel et des aides à la manutention. | Tuteur ou conseiller en prévention | Démonstration correcte sur trois charges différentes. |
 | 10 h 15 – 10 h 30 | Pause | Pause partagée avec l'équipe. | Tuteur | |
 | 10 h 30 – 11 h 30 | Outils et première commande | Prise en main du terminal de scan. Lecture d'une adresse d'emplacement. Le tuteur réalise une commande en commentant, puis le nouveau en réalise une avec lui. | Tuteur | Première commande complète sans erreur, en binôme. |
 | 11 h 30 – 12 h 30 | Préparation en binôme | Le nouveau prépare, le tuteur observe et corrige. Contrôle référence et quantité à chaque ligne. Palette stable : lourd en bas, fragile en haut, filmée et étiquetée. | Tuteur | Palette conforme. |
@@ -92,15 +92,15 @@ La matinée installe la sécurité et les gestes. L'après-midi est consacré à
 
 ## Règles de sécurité de la journée
 
-Ces règles ne se négocient pas, même en période de pointe. Elles découlent du Code du travail et des recommandations de l'INRS.
+Ces règles ne se négocient pas, même en période de pointe. Elles découlent de la loi du 4 août 1996 sur le bien-être au travail et du Code du bien-être au travail.
 
 - **Aucune tâche avant l'accueil sécurité.** Le nouveau ne touche à aucune marchandise avant le quiz réussi et l'attestation signée.
-- **Aucun engin motorisé.** La conduite d'un transpalette électrique exige une autorisation de conduite de l'employeur, et celle d'un chariot élévateur une formation de type CACES R489. Ni l'une ni l'autre ne se délivre en une journée.
+- **Aucun engin motorisé.** La conduite d'un transpalette électrique ou d'un chariot élévateur est réservée aux travailleurs qui ont reçu une formation adéquate. Le chariot élévateur est aussi un poste de sécurité soumis à l'évaluation de santé. Rien de cela ne s'acquiert en une journée.
 - **Jamais seul.** Le tuteur reste à portée de voix toute la journée, y compris pendant la pratique accompagnée.
 - **Pas de travail en hauteur.** Aucun accès aux niveaux supérieurs des racks, ni escabeau sans formation.
-- **Charges limitées.** Le tuteur oriente le nouveau vers des colis légers et des aides à la manutention. Le Code du travail encadre le port habituel de charges lourdes, notamment au-delà de 25 kg pour les femmes et de 55 kg pour les hommes.
-- **Pauses respectées.** Le corps n'est pas habitué à l'effort : les deux pauses de 15 minutes et la pause déjeuner sont prises en entier.
-- **Droit de dire stop.** Le nouveau sait qu'il peut arrêter une tâche qui lui semble dangereuse et prévenir son tuteur, sans reproche.
+- **Charges limitées.** Le tuteur oriente le nouveau vers des colis légers et des aides à la manutention. La réglementation belge ne fixe pas un poids maximal unique : l'employeur évalue les risques de la manutention, notamment pour le dos, et adapte les charges en conséquence.
+- **Pauses respectées.** Le corps n'est pas habitué à l'effort : les deux pauses de 15 minutes et la pause déjeuner sont prises en entier. La loi du 16 mars 1971 sur le travail impose au moins une pause dès que le travail dépasse 6 heures, de 15 minutes à défaut d'autre règle sectorielle.
+- **Droit de dire stop.** Le nouveau sait qu'il peut arrêter une tâche qui lui semble dangereuse et prévenir son tuteur, sans reproche. Le Code du bien-être au travail protège le travailleur qui s'écarte d'un danger grave et immédiat.
 
 ## Bilan de fin de journée
 
@@ -141,14 +141,18 @@ Une journée lance l'intégration, elle ne la termine pas. Un suivi court la pre
 - **J+1 à J+2 : tâches de la veille.** Le nouveau reste sur les zones et produits déjà vus, la cadence n'est toujours pas exigée.
 - **J+3 à J+5 : élargissement.** Nouvelles références, produits plus lourds ou fragiles, première mesure de cadence partagée avec le nouveau.
 - **J+5 : point de 15 minutes avec le manager.** Reprise de la grille de fin de journée et décision : poursuite de la mission, bascule sur le programme de 30 jours pour un contrat long, ou fin de l'accompagnement.
-- **Pour un intérimaire : retour à l'agence.** Le manager partage un bilan court à J+5 pour faciliter les missions suivantes.
+- **Pour un intérimaire : retour à l'agence.** Le manager partage un bilan court à J+5 pour faciliter les missions suivantes. Les trois premiers jours d'un contrat intérimaire valent en principe période d'essai : le bilan de la journée éclaire donc la suite de la mission.
 
 ## Sources
 
 - [Programme d'onboarding sur 30 jours](README.md), préparateur de commandes et mise en rayon, document source de cette version.
 - Talya Bauer, *Onboarding New Employees: Maximizing Success*, SHRM Foundation, présenté par [Cisive, The 4 C's of Onboarding](https://www.cisive.com/blog/4-cs-of-onboarding).
 - Gallup, [Why the Onboarding Experience Is Key for Retention](https://www.gallup.com/workplace/247172/problems-onboarding-program.aspx).
-- INRS, [Logistique : risques du métier](https://www.inrs.fr/metiers/logistique.html).
-- INRS, [Se former aux risques liés à l'activité physique (PRAP et TMS)](https://www.inrs.fr/formation/themes/risques/activite-physique-prap-tms.html).
-- Code du travail, articles R4141-1 et suivants (formation à la sécurité), L4154-2 (formation renforcée des CDD et intérimaires), R4323-55 et R4323-56 (autorisation de conduite), R4541-9 (port de charges), sur [Légifrance](https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072050/).
-- Recommandation CNAM R489 (chariots élévateurs).
+- SPF Emploi, Travail et Concertation sociale, [Code du bien-être au travail](https://emploi.belgique.be/fr/themes/bien-etre-au-travail/principes-generaux/code-du-bien-etre-au-travail) : livre Ier, titre 2 (accueil et accompagnement des nouveaux travailleurs), article I.2-26 (droit de s'écarter d'un danger grave et immédiat), livre IV (équipements de travail mobiles), livre VIII, titre 3 (manutention manuelle de charges), livre X, titre 2 (travail intérimaire).
+- SPF Emploi, [L'accueil et l'accompagnement des nouveaux travailleurs](https://emploi.belgique.be/fr/actualites/laccueil-et-laccompagnement-des-nouveaux-travailleurs).
+- SPF Emploi, [Permis de conduire pour chariot de manutention automoteur](https://emploi.belgique.be/fr/themes/bien-etre-au-travail/equipements-de-travail/equipements-de-travail-mobiles/permis-de).
+- SPF Emploi, [Manutention manuelle de charges](https://emploi.belgique.be/fr/themes/bien-etre-au-travail/ergonomie-au-travail-et-prevention-des-tms/manutention-manuelle-de).
+- SPF Emploi, [Travail intérimaire](https://emploi.belgique.be/fr/themes/bien-etre-au-travail/organisation-de-travail-et-categories-specifiques-du-travailleurs-4), et le site fichepostedetravail.be de Prévention et Intérim.
+- SPF Emploi, [La période d'essai](https://emploi.belgique.be/fr/themes/contrats-de-travail/execution-du-contrat-de-travail/la-periode-dessai).
+- Loi du 16 mars 1971 sur le travail, article 38quater (pauses), résumée par [Actualités droit belge](https://www.actualitesdroitbelge.be/droit-du-travail/droit-du-travail-abreges-juridiques/les-pauses-ou-intervalles-de-repos-lors-des-prestations-de-travail/les-pauses-ou-intervalles-de-repos-lors-des-prestations-de-travail).
+- Loi du 4 août 1996 relative au bien-être des travailleurs lors de l'exécution de leur travail.
